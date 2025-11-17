@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button onclick="ej10()">ejercicio10</button>
+
+<script>
+
+    const ej10=()=>{
+        let arr=[5, 2, 9, 1];
+        //let arr=prompt("Ingrese numeros");
+
+        let arr2= ordenar(arr);
+
+        alert(arr2.join(", "));    
+    }
+
+    const ordenar=(arr)=>{
+        let arr2=arr.sort((a,b)=>b-a);
+        return arr2;
+    }
+
+</script>
+
+
+</body>
+</html>
